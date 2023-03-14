@@ -1,0 +1,33 @@
+.perfil{
+    display: flex;
+    justify-content: space-around;
+    gap: 8px
+}
+
+.informacoes__perfil{
+    display: flex;
+    flex-direction: column;
+}
+
+.informacoes__principais__perfil{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.imagem__capa{
+    position: relative;
+}
+
+.imagem{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem__capa{
+    position: relative;
+}
+
+.imagem__perfil{
+    position: absolute;
+}
+
