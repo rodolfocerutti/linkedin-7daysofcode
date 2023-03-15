@@ -1,3 +1,11 @@
+.principal{
+    display: grid;
+    grid-template:
+    ". ."
+    ". ." /80% 20%;
+    padding-top: 24px;
+}
+
 .perfil{
     display: flex;
     justify-content: space-around;
@@ -7,27 +15,107 @@
 .informacoes__perfil{
     display: flex;
     flex-direction: column;
+    background: url(../assets/Imagem-de-capa.svg);
+    background-color: var(--fundo-card);
+    background-size: 100%;
+    width: 1024px;
+    height: auto;
+    background-repeat: no-repeat;
+    border-radius: 16px 16px;
 }
 
 .informacoes__principais__perfil{
     display: grid;
-    grid-template-columns: 50% 50%;
-}
-
-.imagem__capa{
-    position: relative;
-}
-
-.imagem{
-    display: flex;
-    flex-direction: column;
-}
-
-.imagem__capa{
-    position: relative;
+    grid-template-columns: 70% 30%;
 }
 
 .imagem__perfil{
-    position: absolute;
+    padding: 170px 0 0 24px;
 }
 
+.informacao__principal{
+    padding: 8px 0 0 24px;
+}
+
+.botoes{
+    padding: 16px 0 0 24px;
+}
+.titulo__principal{
+    font-size: 32px;
+    font-family: var(--font-primaria);
+    padding-bottom: 0.5rem;
+    color: var(--cor-branca);
+    font-weight: 600;
+}
+
+.titulo__secundario{
+    font-size: 16px;
+    font-family: var(--font-primaria);
+    padding-bottom: 0.5rem;
+    color: var(--cor-branca);
+    font-weight: 600;
+}
+
+.fala__sobre{
+    font-size: 14px;
+    font-family: var(--font-primaria);
+    padding-bottom: 0.5rem;
+    color: var(--texto-secundario);
+}
+
+.informacoes__secundarias{
+    font-size: 14px;
+    font-family: var(--font-primaria);
+    padding-bottom: 0.5rem;
+    color: var(--texto-secundario);
+    
+}
+
+.informacoes__secundarias a{
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--primario);
+}
+
+.informacoes__tercearias {
+    font-size: 14px;
+    font-family: var(--font-primaria);
+    padding-bottom: 0.5rem;
+    color: var(--primario);
+    font-weight: 500;
+}
+
+.botao{
+    padding: 8px 0 24px 24px;
+}
+
+.botao__mensagem{
+    background-color: var(--primario);
+    padding: 6px 29px 6px 29px;
+    border-radius: 16px;
+    font-family: var(--font-primaria);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.botao__mais{
+    padding: 6px 49px 6px 49px;
+    border: 1px solid var(--primario);
+    border-radius: 16px;
+    font-family: var(--font-primaria);
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--cor-branca);
+}
+
+.empresas{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+}
+
+.texto__empresa{
+    padding: 16px;
+    text-align: center;
+}
