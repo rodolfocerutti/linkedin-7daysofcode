@@ -3,7 +3,10 @@
     background: var(--fundo-card);
     display: flex;
     justify-content: space-around;
-    padding: 0 6rem;
+}
+
+section.navebar{
+  gap: 590px;
 }
 
 .navebar__busca{
@@ -48,9 +51,8 @@
 
 .navebar{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    gap: 92px;
 }
 
 .navebar__item{
@@ -60,7 +62,7 @@
     justify-content: center;
 }
 
-.navbar__item:last-child{
+.navebar__item:last-child{
     margin-left: .2rem;
     border-left: 1px solid var(--fonte-primaria);
 }

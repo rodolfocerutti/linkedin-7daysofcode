@@ -3,9 +3,11 @@
 
 @import url("../style/header.css");
 @import url("../style/perfil.css");
+@import url("../style/destaque.css");
 
 :root {
     --fundo-escuro: #000;
+    --fundo-mais-claro:#2c3033;
     --fundo-card: #1d2226;
     --fundo-card-ativo: hsla(0, 0%, 100%, 0.12);
     --texto-principal: hsla(0, 0%, 100%, 0.9);
@@ -22,4 +24,5 @@ body{
     font-family: var(--font-primaria);
     font-weight: 400;
     display: block;
+    /*background-color: var(--fundo-mais-claro);*/
 }

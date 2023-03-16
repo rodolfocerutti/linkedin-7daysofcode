@@ -8,7 +8,7 @@
 
 .perfil{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     gap: 8px
 }
 
@@ -86,7 +86,9 @@
 }
 
 .botao{
+    display: flex;
     padding: 8px 0 24px 24px;
+    gap:16px;
 }
 
 .botao__mensagem{
@@ -111,11 +113,73 @@
 .empresas{
     display: flex;
     flex-direction: column;
-    gap: 16px;
     justify-content: center;
+    gap: 16px;
 }
 
-.texto__empresa{
-    padding: 16px;
+.empresas__detalhe{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.texto__empresas{
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--cor-branca)
+}
+
+.pessoas{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--fundo-card);
+    width: auto;
+    height: auto;
+    padding: 16px 16px 0 16px;
+    border-radius: 16px;
+}
+
+.perfil__pessoas{
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;  
+}
+
+.titulo__pessoas{
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--cor-branca);
+}
+
+.nome__pessoa{
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--cor-branca);
+    padding-bottom: 0.5rem;
+}
+
+.cargo__pessoa{
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--texto-secundario);
+    padding-bottom: 0.5rem;
+}
+
+.botao__pessoa{
+    border: 1px solid var(--cor-branca);
+    border-radius: 16px;
+    padding: 7px 16px 7px 16px;
     text-align: center;
+    width: 154px;
+    color: var(--cor-branca);
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+}
+
+@media(max-width: 1024px){
+    .pessoas{
+     display: none;
+    }
 }
