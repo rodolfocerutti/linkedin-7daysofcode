@@ -1,4 +1,40 @@
 .destaque{
     display: flex;
     justify-content: center;
+    gap: 16px;
+    padding-top: 16px;
+}
+
+.destaques__publicacao{
+    background: var(--fundo-card);
+    width: 1024px;
+    height: 312px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.destaque__divisao{
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem__circulos{
+    display: flex;
+}
+
+.informacao__comentarios{
+    padding-left: 60px;
+}
+
+.destaque__publicacao__lista{
+    display: flex;
+    flex-direction: row;
+}
+.destaque__trabalhos__principal{
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    max-width: 238px;
 }
