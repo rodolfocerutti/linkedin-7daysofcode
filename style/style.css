@@ -4,6 +4,7 @@
 @import url("../style/header.css");
 @import url("../style/perfil.css");
 @import url("../style/destaque.css");
+@import url("../style/aside.css");
 
 :root {
     --fundo-escuro: #000;

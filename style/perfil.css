@@ -1,185 +1,29 @@
-.principal{
-    display: grid;
-    grid-template:
-    ". ."
-    ". ." /80% 20%;
-    padding-top: 16px;
-}
-
-.perfil{
-    display: flex;
-    justify-content: center;
-    gap: 8px
-}
-
-.informacoes__perfil{
-    display: flex;
-    flex-direction: column;
-    background: url(../assets/Imagem-de-capa.svg);
+.principal__perfil{
     background-color: var(--fundo-card);
-    background-size: 100%;
-    width: 1024px;
-    height: auto;
-    background-repeat: no-repeat;
-    border-radius: 16px 16px;
+    height: 468px;
 }
 
-.informacoes__principais__perfil{
+.principal__perfil__rodolfo{
+    background-image: url(../assets/Imagem-de-capa.svg);
+    width: 780px;
+    height: 230px;
+}
+
+.lista-perfil{
     display: grid;
-    grid-template-columns: 70% 30%;
-}
-
-.imagem__perfil{
-    padding: 170px 0 0 24px;
-}
-
-.informacao__principal{
-    padding: 8px 0 0 24px;
-}
-
-.botoes{
-    padding: 16px 0 0 24px;
-}
-.titulo__principal{
-    font-size: 32px;
-    font-family: var(--font-primaria);
-    padding-bottom: 0.5rem;
-    color: var(--cor-branca);
-    font-weight: 600;
-}
-
-.titulo__secundario{
-    font-size: 16px;
-    font-family: var(--font-primaria);
-    padding-bottom: 0.5rem;
-    color: var(--cor-branca);
-    font-weight: 600;
-}
-
-.fala__sobre{
-    font-size: 14px;
-    font-family: var(--font-primaria);
-    padding-bottom: 0.5rem;
-    color: var(--texto-secundario);
-}
-
-.informacoes__secundarias{
-    font-size: 14px;
-    font-family: var(--font-primaria);
-    padding-bottom: 0.5rem;
-    color: var(--texto-secundario);
-    
-}
-
-.informacoes__secundarias a{
-    font-weight: 700;
-    font-size: 14px;
-    color: var(--primario);
-}
-
-.informacoes__tercearias {
-    font-size: 14px;
-    font-family: var(--font-primaria);
-    padding-bottom: 0.5rem;
-    color: var(--primario);
-    font-weight: 500;
-}
-
-.botao{
-    display: flex;
-    padding: 8px 0 24px 24px;
-    gap:16px;
-}
-
-.botao__mensagem{
-    background-color: var(--primario);
-    padding: 6px 29px 6px 29px;
-    border-radius: 16px;
-    font-family: var(--font-primaria);
-    font-weight: 500;
-    font-size: 14px;
-}
-
-.botao__mais{
-    padding: 6px 49px 6px 49px;
-    border: 1px solid var(--primario);
-    border-radius: 16px;
-    font-family: var(--font-primaria);
-    font-weight: 500;
-    font-size: 14px;
-    color: var(--cor-branca);
-}
-
-.empresas{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 16px;
-}
-
-.empresas__detalhe{
-    display: flex;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto;
     align-items: center;
-    gap: 16px;
+    padding: 118px 24px 0 24px;
 }
 
-.texto__empresas{
-    font-weight: 600;
-    font-size: 16px;
-    color: var(--cor-branca)
-}
-
-.pessoas{
+.lista-perfil__rodolfo{
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    background-color: var(--fundo-card);
-    width: auto;
-    height: auto;
-    padding: 16px 16px 0 16px;
-    border-radius: 16px;
+    gap:.5rem;
 }
 
-.perfil__pessoas{
-    display: flex;
-    gap: 16px;
-    align-items: flex-start;  
-}
-
-.titulo__pessoas{
-    font-weight: 700;
-    font-size: 16px;
-    color: var(--cor-branca);
-}
-
-.nome__pessoa{
-    font-weight: 700;
-    font-size: 14px;
-    color: var(--cor-branca);
-    padding-bottom: 0.5rem;
-}
-
-.cargo__pessoa{
-    font-weight: 400;
-    font-size: 12px;
-    color: var(--texto-secundario);
-    padding-bottom: 0.5rem;
-}
-
-.botao__pessoa{
-    border: 1px solid var(--cor-branca);
-    border-radius: 16px;
-    padding: 7px 16px 7px 16px;
-    text-align: center;
-    width: 154px;
-    color: var(--cor-branca);
-    font-weight: 700;
-    font-size: 14px;
-    margin-bottom: 0.5rem;
-}
-
-@media(max-width: 1024px){
-    .pessoas{
-     display: none;
-    }
+.imagem-perfil{
+    width: 160px;
+    height: 160px;
 }

@@ -7,259 +7,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/grid.css">
     <title>Linkedin</title>
 </head>
 
 <body>
-
-    <section class="navebar">
-        <div class="navebar__busca">
-            <span class="navebar__logo__linkedin"></span>
-            <span class="navebar__busca__icone"></span>
-            <input class="navebar__input" type="search" placeholder="Pesquisar"></input>
-        </div>
-
-        <nav class="navebar">
-            <div class="navebar__item">
-                <span class="item__icone inicio"></span>
-                <a href="#">Início</a>
-            </div>
-            <div class="navebar__item">
-                <span class="item__icone minha__rede"></span>
-                <a href="#">Minha Rede</a>
-            </div>
-            <div class="navebar__item">
-                <span class="item__icone vagas"></span>
-                <a href="#">Vagas</a>
-            </div>
-            <div class="navebar__item">
-                <span class="item__icone mensagem"></span>
-                <a href="#">Mensagem</a>
-            </div>
-            <div class="navebar__item">
-                <span class="item__icone notificacao"></span>
-                <a href="#">Notificações</a>
-            </div>
-            <div class="navebar__item">
-                <span class="item__icone solucoes"></span>
-                <a href="#">Soluções</a>
-            </div>
+    <header class="navbar">
+        <nav>
+            <p>teste</p>
         </nav>
-    </section>
-
-    <!--Perfil de Usuário-->
-
-    <main>
-        <section class="perfil principal">
-            <div class="informacoes__perfil">
-                <div class="imagem__perfil">
-                    <img src="./assets/foto-perfil.svg" alt="">
-                </div>
-                <div class="informacoes__principais__perfil">
-                    <div class="informacao__principal">
-                        <div class="titulo__principal">
-                            <h1>Rodolfo Cerutti</h1>
-                        </div>
-                        <div class="titulo__secundario">
-                            <h2>Designer Gráfico | UX/UI Designer | Web Designer | HTML | CSS</h2>
-                        </div>
-                        <div class="fala__sobre">
-                            <span>Fala sobre #javascript, #frontend, #reactjs, e #backend</span>
-                        </div>
-                        <div class="informacoes__secundarias">
-                            <span>Cidade, estado e país • <a href="#">Informações contato</a></span>
-                        </div>
-                        <div class="informacoes__tercearias">
-                            <span><a href="#">Seguidores</a> • <a href="#">Conexões</a></span>
-                        </div>
-                    </div>
-
-                    <div class="empresas">
-                        <div class="empresas__detalhe">
-                            <a href="#"><img src="./assets/empresa.svg" alt=""></a>
-                            <span class="texto__empresas">Movement</span>
-                        </div>
-                        <div class="empresas__detalhe">
-                            <a href="#"><img src="./assets/empresa.svg" alt=""></a>
-                            <span class="texto__empresas">Movement</span>
-                        </div>
-                    </div>
-                    <div class="botao">
-                        <a class="botao__mensagem" href="#">Mensagem</a>
-                        <a class="botao__mais" href="#">Mais</a>
-                    </div>
-                </div>
-            </div>
-            <div class="pessoas">
-                <div class="titulo__pessoas">
-                    <h2>As pessoas também viram</h2>
-                </div>
-                <div class="perfil__pessoas">
-                    <img src="./assets/pessoa-01.svg" alt="foto de uma pessoa">
-                    <ul>
-                        <li class="nome__pessoa">Nome e Sobrenome</li>
-                        <li class="cargo__pessoa">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</li>
-                        <li class="botao__pessoa"><a href="#">Enviar mensagem</a></li>
-                    </ul>
-                </div>
-                <div class="perfil__pessoas">
-                    <img src="./assets/pessoa-02.svg" alt="foto de uma pessoa">
-                    <ul>
-                        <li class="nome__pessoa">Nome e Sobrenome</li>
-                        <li class="cargo__pessoa">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</li>
-                        <li class="botao__pessoa"><a href="#">Enviar mensagem</a></li>
-                    </ul>
-                </div>
-                <div class="perfil__pessoas">
-                    <img src="./assets/pessoa-03.svg" alt="foto de uma pessoa">
-                    <ul>
-                        <li class="nome__pessoa">Nome e Sobrenome</li>
-                        <li class="cargo__pessoa">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</li>
-                        <li class="botao__pessoa"><a href="#">Enviar mensagem</a></li>
-                    </ul>
-                </div>
-                <div class="perfil__pessoas">
-                    <img src="./assets/pessoa-04.svg" alt="foto de uma pessoa">
-                    <ul>
-                        <li class="nome__pessoa">Nome e Sobrenome</li>
-                        <li class="cargo__pessoa">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</li>
-                        <li class="botao__pessoa"><a href="#">Enviar mensagem</a></li>
-                    </ul>
-                </div>
-                <div class="perfil__pessoas">
-                    <img src="./assets/pessoa-05.svg" alt="foto de uma pessoa">
-                    <ul>
-                        <li class="nome__pessoa">Nome e Sobrenome</li>
-                        <li class="cargo__pessoa">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</li>
-                        <li class="botao__pessoa"><a href="#">Enviar mensagem</a></li>
-                    </ul>
-                </div>
+    </header>
+    <aside class="pessoas">
+        <p>teste</p>
+    </aside>
+    <main class="principal">
+        <section class="principal__perfil">
+            <div class="principal__perfil__rodolfo">
+                <ul class="lista-perfil">
+                    <li class="lista-perfil__rodolfo">
+                        <img class="imagem-perfil" src="./assets/foto-perfil.svg" alt="">
+                        <h1 class="principal-nome__rodolfo">Rodolfo Cerutti</h1>
+                        <h3>Desenvolvedor | HTML | CSS | Typescript | Node</h3>
+                        <span>Fala sobre #javascript, #frontend, #reactjs, e #backend</span>
+                        <span>Cidade, estado e país • <a href="#">informações de contato</a></span>
+                        <span><a href="#">Seguidores</a><a href="#">Conexões</a></span>
+                    </li>
+                    <li class="principal-empresas">
+                        <img src="./assets/empresa.svg" alt="">
+                        <span>Empresa 1</span>
+                        <img src="./assets/empresa.svg" alt="">
+                        <span>Empresa 1</span>
+                    </li>
+                    <li>
+                        <a href="#">mensagem</a>
+                        <a href="#">mais</a>
+                    </li>
+                </ul>
             </div>
         </section>
-
-        <!--destaques-->
-
-        <section class="destaque">
-            <div class="destaques__publicacao">
-                <div class="teste">
-                    <h2>teste</h2>
-                </div>
-                <div class="destaque__publicacao__lista">
-                    <div class="destaque__trabalhos__principal">
-                        <div class="destaque__publicacao">
-                            <span>Publicação</span>
-                        </div>
-                        <div class="destaque__legenda">
-                            <span>Legenda da primeira publicaçã...</span>
-                        </div>
-                        <div class="destaque__imagem">
-                            <img src="./assets/publicacao-1.svg" alt="">
-                        </div>
-                        <div class="imagem__circulos">
-                            <div class="imagem__circulo__um">
-                                <img src="./assets/Ellipse 2.svg" alt="">
-                            </div>
-                            <div class="imagem__circulo__dois">
-                                <img src="./assets/Ellipse 2.svg" alt="">
-                            </div>
-                            <div class="imagem__circulo__tres">
-                                <img src="./assets/Ellipse 2.svg" alt="">
-                            </div>
-                            <div class="visualizacoes">
-                                <span>124</span>
-                            </div>
-                            <div class="informacao__comentarios">
-                                <div class="comentarios">
-                                    <span>5 comentarios</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-                    <div class="destaque__trabalhos__principal">
-                        <div class="destaque__publicacao">
-                            <span>Publicação</span>
-                        </div>
-                        <div class="destaque__legenda">
-                            <span>Legenda da primeira publicaçã...</span>
-                        </div>
-                        <div class="destaque__imagem">
-                            <img src="./assets/publicacao-1.svg" alt="">
-                        </div>
-                        <div class="imagem__circulos">
-                            <div class="imagem__circulo__um">
-                                <img src="./assets/Ellipse 2.svg" alt="">
-                            </div>
-                            <div class="imagem__circulo__dois">
-                                <img src="./assets/Ellipse 2.svg" alt="">
-                            </div>
-                            <div class="imagem__circulo__tres">
-                                <img src="./assets/Ellipse 2.svg" alt="">
-                            </div>
-                            <div class="visualizacoes">
-                                <span>124</span>
-                            </div>
-                            <div class="informacao__comentarios">
-                                <div class="comentarios">
-                                    <span>5 comentarios</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            
-            
-            <div class="pessoas">
-                <div class="titulo__pessoas">
-                    <h2>As pessoas também viram</h2>
-                </div>
-                <div class="perfil__pessoas">
-                    <img src="./assets/pessoa-01.svg" alt="foto de uma pessoa">
-                    <ul>
-                        <li class="nome__pessoa">Nome e Sobrenome</li>
-                        <li class="cargo__pessoa">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</li>
-                        <li class="botao__pessoa"><a href="#">Enviar mensagem</a></li>
-                    </ul>
-                </div>
-                <div class="perfil__pessoas">
-                    <img src="./assets/pessoa-02.svg" alt="foto de uma pessoa">
-                    <ul>
-                        <li class="nome__pessoa">Nome e Sobrenome</li>
-                        <li class="cargo__pessoa">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</li>
-                        <li class="botao__pessoa"><a href="#">Enviar mensagem</a></li>
-                    </ul>
-                </div>
-                <div class="perfil__pessoas">
-                    <img src="./assets/pessoa-03.svg" alt="foto de uma pessoa">
-                    <ul>
-                        <li class="nome__pessoa">Nome e Sobrenome</li>
-                        <li class="cargo__pessoa">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</li>
-                        <li class="botao__pessoa"><a href="#">Enviar mensagem</a></li>
-                    </ul>
-                </div>
-                <div class="perfil__pessoas">
-                    <img src="./assets/pessoa-04.svg" alt="foto de uma pessoa">
-                    <ul>
-                        <li class="nome__pessoa">Nome e Sobrenome</li>
-                        <li class="cargo__pessoa">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</li>
-                        <li class="botao__pessoa"><a href="#">Enviar mensagem</a></li>
-                    </ul>
-                </div>
-                <div class="perfil__pessoas">
-                    <img src="./assets/pessoa-05.svg" alt="foto de uma pessoa">
-                    <ul>
-                        <li class="nome__pessoa">Nome e Sobrenome</li>
-                        <li class="cargo__pessoa">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</li>
-                        <li class="botao__pessoa"><a href="#">Enviar mensagem</a></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
     </main>
-
 </body>
-
 </html>
