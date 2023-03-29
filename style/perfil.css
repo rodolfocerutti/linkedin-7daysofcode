@@ -1,20 +1,75 @@
 .principal__perfil{
     background-color: var(--fundo-card);
     height: 468px;
+    border-radius: 16px 16px 16px 16px;
 }
 
 .principal__perfil__rodolfo{
     background-image: url(../assets/Imagem-de-capa.svg);
-    width: 780px;
     height: 230px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imagem-perfil{
+    padding: 118px 24px 0 24px;
+    width: 160px;
+    height: 160px;
 }
 
 .lista-perfil{
     display: grid;
     grid-template-columns: 60% 40%;
     grid-template-rows: auto;
+    align-items: start;
+    padding: 0px 24px 0 24px;
+}
+
+.principal-nome__rodolfo{
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--texto-principal);
+}
+
+.principal-sobre{
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--texto-principal)
+}
+
+.principal-fala__sobre{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--texto-secundario);
+}
+
+.principal-cidade{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--texto-secundario);
+}
+
+.principal-informacao{
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--primario);
+}
+
+.principal-seguidores{
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--primario);
+}
+
+.principal-empresas{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: auto;
+    grid-gap: .5rem;
     align-items: center;
-    padding: 118px 24px 0 24px;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--texto-principal);
 }
 
 .lista-perfil__rodolfo{
@@ -23,7 +78,25 @@
     gap:.5rem;
 }
 
-.imagem-perfil{
-    width: 160px;
-    height: 160px;
+.botao{
+    display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
+    align-items: center;
+}
+
+.botao__mensagem{
+    background-color: var(--primario);
+    padding: 6px 29px;
+    border-radius: 16px;
+    color: var(--fundo-escuro);
+    font-weight: 500;
+}
+
+.botao__mais{
+    border: 1px solid var(--primario);
+    padding: 6px 49px;
+    border-radius: 16px;
+    color: var(--primario);
+    font-weight: 500;
 }

@@ -1,40 +1,53 @@
 .destaque{
-    display: flex;
+    background-color: var(--fundo-card);
+    margin-top: 8px;
+}
+
+.destaque__rodolfo{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: auto;
     justify-content: center;
-    gap: 16px;
-    padding-top: 16px;
+    grid-gap: 1rem;
+    padding: 0px 22px 16px 22px;
 }
 
-.destaques__publicacao{
-    background: var(--fundo-card);
-    width: 1024px;
-    height: 312px;
+.destaque-titulo{
+    padding: 16px 0 8px 22px;
+}
+
+.lista-destaque__rodolfo{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: .5rem;
+}
+
+.publicacao-titulo{
+    padding: 12px 0 0 14px
+}
+
+.publicacao-legenda{
+    padding: 0 18px 0 14px
+}
+
+.imagem-publicacao{
+    width: 100%;
+}
+
+.lista-destaque{
+    border: 1px solid var(--texto-secundario);
     border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 16px;
 }
 
-.destaque__divisao{
-    display: flex;
-    flex-direction: column;
+.lista-comentarios{
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    grid-gap: .5rem;
+    padding: 8px 8px;
 }
 
-.imagem__circulos{
-    display: flex;
-}
-
-.informacao__comentarios{
-    padding-left: 60px;
-}
-
-.destaque__publicacao__lista{
-    display: flex;
-    flex-direction: row;
-}
-.destaque__trabalhos__principal{
-    border: 1px solid rgba(255, 255, 255, 0.6);
-    border-radius: 8px;
-    max-width: 238px;
+.comentarios{
+    justify-self: end;
 }
