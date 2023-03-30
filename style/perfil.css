@@ -1,6 +1,7 @@
 .principal__perfil{
     background-color: var(--fundo-card);
     height: 468px;
+    width: 780px;
     border-radius: 16px 16px 16px 16px;
 }
 

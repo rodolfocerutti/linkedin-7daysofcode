@@ -10,3 +10,8 @@ Resolvi resetar e refazer esse projeto usando o grid, assim aprendo mais.
 •Finalizamos a parte do perfil utilizando o grid
 •Quase finalisado a parte de destaques utilizando o grid
 •O desafio nao pede para fazer responsividade, mas vou tentar.
+
+29/03/2023 - Melhorando o projeto
+•Finalizado o Destaque
+<br>•Finalizado o atividades
+<br>•Finalizado o sobre

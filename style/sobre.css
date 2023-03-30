@@ -1,0 +1,22 @@
+.sobre{
+    background-color: var(--fundo-card);
+    width: 730px;
+    border-radius: 16px;
+    margin-top: 8px;
+    padding: 16px 24px 16px 24px;
+}
+
+.titulo-sobre{
+    padding-bottom: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--cor-branca);
+}
+
+.texto-sobre{
+    text-align: justify;
+    line-height: 1rem;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--cor-branca);
+}
