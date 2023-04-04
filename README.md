@@ -1,3 +1,7 @@
+<h1>linkedin clone page</h1>
+
+> Status: Developing
+
 Aqui foi está sendo feito um desafio de criar a página clone do linkedin usando css e html.
 O desafio é feito para o 7daysofcoding da Alura
 No dia 11/03/2023 eu acabei fazendo a navbar, infelizmente perdi a live de fazer a barra.
@@ -15,3 +19,8 @@ Resolvi resetar e refazer esse projeto usando o grid, assim aprendo mais.
 •Finalizado o Destaque
 <br>•Finalizado o atividades
 <br>•Finalizado o sobre
+
++ HTML
++ CSS
++ Grid
++ Flexbox

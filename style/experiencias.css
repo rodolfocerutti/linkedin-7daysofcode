@@ -1,0 +1,75 @@
+.experiencia{
+    background-color: var(--fundo-card);
+    margin-top: 8px;
+    border-radius: 16px;
+    height: 358px;
+}
+
+.experiencia-imagens{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto;
+    gap: 8px;
+}
+
+.imagem-empresa{
+    padding: 0 0 0 24px;
+}
+
+.titulo-experiencia{
+    padding: 16px 0 16px 24px;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--cor-branca);
+}
+
+.titulo-empresa{
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--cor-branca);
+}
+
+.subtitulo-empresa{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--texto-secundario)
+}
+
+.experiencia-lista{
+    line-height: 18px;
+}
+
+.titulo-experiencia__lista{
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--cor-branca);
+}
+
+.tipo-emprego{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--cor-branca);
+}
+
+.duracao{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--texto-secundario);
+}
+
+.localizacao{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--texto-secundario);
+}
+
+
+
+.timeline{
+    padding: 0 0 0 36px; 
+}
+
+.experiencia-lista{
+    display: flex;
+    flex-direction: column;
+}
