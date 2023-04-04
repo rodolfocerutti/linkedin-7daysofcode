@@ -1,26 +1,36 @@
-<h1>linkedin clone page</h1>
+<h1>Linkedin clone page</h1>
 
-> Status: Developing
+> Status: Developing ⚠️
 
-Aqui foi está sendo feito um desafio de criar a página clone do linkedin usando css e html.
-O desafio é feito para o 7daysofcoding da Alura
-No dia 11/03/2023 eu acabei fazendo a navbar, infelizmente perdi a live de fazer a barra.
-Não tivemos uma grande evolução no projeto, está bem difícil, não vou desistir!
+### As a study, I'm creating a clone of the LinkedIN page. Since I'm still a junior in development, I'm only using html and css. I also use it to develop css grid and flex box.
 
-27/03/2023 - Melhorando o projeto
-Resolvi resetar e refazer esse projeto usando o grid, assim aprendo mais.
+## Technologies I'm using
 
-28/03/2023 - Melhorando o Projeto
-•Finalizamos a parte do perfil utilizando o grid
-•Quase finalisado a parte de destaques utilizando o grid
-•O desafio nao pede para fazer responsividade, mas vou tentar.
+<table>
+  <tr>
+    <td>HTML</td>
+    <td>CSS</td>
+    <td>Grid</td>
+    <td>Flex Box</td>
+  </tr>
+  
+</table>
 
-29/03/2023 - Melhorando o projeto
-•Finalizado o Destaque
-<br>•Finalizado o atividades
-<br>•Finalizado o sobre
+## Updates - 03/04/2023
 
-+ HTML
-+ CSS
-+ Grid
-+ Flexbox
++ Finished Highlight
++ Finished the Activity
++ Finished the About
++ Finished the Experiences
+
+## Base Project
+ 
+![Linkedin - Desktop](https://user-images.githubusercontent.com/42013617/228697236-fe3e46c7-a185-4e52-9ddc-d7b9c1cc3125.png)
+
+## Live programming
+
+- [Programming Studies 27](https://www.youtube.com/watch?v=hgsLGbWUSXo&ab_channel=RodolfoCerutti-Designer)</br>
+
+## Contact
+
++ rodolfo.cerutti1988@hotmail.com
