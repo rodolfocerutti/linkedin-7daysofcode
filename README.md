@@ -29,7 +29,7 @@
 
 ## Live programming
 
-- [Programming Studies 27](https://www.youtube.com/watch?v=hgsLGbWUSXo&ab_channel=RodolfoCerutti-Designer)</br>
+- [Programming Studies 28](https://www.youtube.com/watch?v=hgsLGbWUSXo&ab_channel=RodolfoCerutti-Designer)</br>
 
 ## Contact
 
