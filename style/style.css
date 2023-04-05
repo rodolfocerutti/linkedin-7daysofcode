@@ -8,6 +8,8 @@
 @import url("../style/sobre.css");
 @import url("../style/aside.css");
 @import url("../style/experiencias.css");
+@import url("../style/formacao.css");
+@import url("../style/idioma.css");
 
 :root {
     --fundo-escuro: #000;

@@ -1,0 +1,36 @@
+.idioma{
+    background-color: var(--fundo-card);
+    margin-top: 8px;
+    border-radius: 16px;
+}
+
+.titulo-idioma{
+    padding: 16px 0 8px 24px;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--cor-branca);
+}
+
+.idioma-lista{
+    display: flex;
+    flex-direction: column;
+    padding: 16px 24px;
+    gap: 16px;
+    line-height: 20px;
+}
+
+.idioma-lista__titulo{
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--cor-branca);
+}
+
+.idioma-lista__texto{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--texto-secundario);
+}
+
+.linha{
+    border: 1px solid var(--cor-branca);
+}

@@ -1,3 +1,26 @@
 .navbar{
-  background-color: aqua;
+  background-color: var(--fundo-card)
+}
+
+.navbar-linkedin{
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-link__busca{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.navbar-link__lista{
+  display: flex;
+  gap: 61px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.linha{
+  border: 1px solid var(--cor-branca);
 }

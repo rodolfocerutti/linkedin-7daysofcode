@@ -1,0 +1,47 @@
+.formacao{
+    background-color: var(--fundo-card);
+    border-radius: 16px;
+    margin-top: 8px;
+}
+
+.formacao-academia__rodolfo{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: .5rem;
+    margin: 0 0 0 24px;
+    padding-bottom: 24px;
+}
+
+.formacao-lista{
+    display: flex;
+    flex-direction: column;
+}
+
+.formacao-academica{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--cor-branca);
+    padding: 24px 0 9px 24px;
+}
+
+.formacao-lista{
+    line-height: 20px;
+}
+
+.formacao-lista__titulo{
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--cor-branca);
+}
+
+.formacao-lista__subtitulo{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--cor-branca);
+}
+
+.formacao-lista__texto{
+    font-weight: 400;
+    font-size: 14px;
+    color:var(--texto-secundario);
+}
