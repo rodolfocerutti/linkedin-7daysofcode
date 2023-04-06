@@ -16,7 +16,7 @@
   
 </table>
 
-## Updates - 04/04/2023
+## Updates - 05/04/2023
 
 + Finished Highlight
 + Finished the Activity
@@ -24,7 +24,8 @@
 + Finished the Experiences
 + Finished the Academic Education
 + Finished the Language
-+ Starting to build the header
++ Finished the header
++
 
 ## Base Project
  
@@ -32,7 +33,7 @@
 
 ## Live programming
 
-- [Programming Studies 29](https://www.youtube.com/watch?v=_cFxeCk29Lo&ab_channel=RodolfoCerutti-Designer)</br>
+- [Programming Studies 30](https://www.youtube.com/watch?v=0PBVjab7dew&ab_channel=RodolfoCerutti-Designer)</br>
 
 ## Contact
 

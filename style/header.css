@@ -1,26 +1,76 @@
 .navbar{
-  background-color: var(--fundo-card)
+  background-color: var(--fundo-card);
 }
 
 .navbar-linkedin{
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 8px 0;
+}
+
+.navbar-busca{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.navbar-pesquisa{
+  width: 280px;
+  height: 34px;
+  border-radius: 4px;
+  background-color: var(--fundo-card-ativo);
+}
+
+.navbar-pesquisa__icone{
+  background-image: url("../assets/lupa.svg");
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  left: 15%;
+  top: 2%;
+}
+
+.navbar-pesquisa::placeholder{
+  color: var(--cor-branca);
+  padding: 0 30px; 
+}
+
+.navbar-icones{
+  display: flex;
+  gap: 62px;
+  flex-direction: row;
+  padding-right: 12rem;
+}
+
+.navbar-icones__item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
+  gap: .2rem;
 }
 
-.navbar-link__busca{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
+.navbar-nome{
+  text-align: center;
+  color: var(--cor-branca);
+  transition: color .3s ease;
 }
 
-.navbar-link__lista{
-  display: flex;
-  gap: 61px;
-  align-items: center;
-  justify-content: space-between;
+.navbar-nome:hover{
+  color: var(--fundo-card-ativo);
+}
+
+.navbar-nome{
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--cor-branca);
 }
 
 .linha{
   border: 1px solid var(--cor-branca);
+  height: auto;
 }
+
+

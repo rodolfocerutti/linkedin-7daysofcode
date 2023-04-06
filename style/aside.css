@@ -1,3 +1,50 @@
 .pessoas{
-    background-color: blue;
+    background-color: var(--fundo-card);
+    height: 570px;
+    border-radius: 16px;
+}
+
+.titulo-pessoas{
+    padding: 16px 16px 16px 24px;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--cor-branca);
+}
+
+.pessoas-lista{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: repeat(5, 25%);
+    gap: .5rem;
+    align-items: start;
+    padding: 0 24px 0 24px;
+}
+
+.imagem-pessoa__lista{
+    width: 48px;
+    height: 48px;
+}
+
+.nome-pessoa__lista{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--cor-branca);
+}
+
+.cargo-pessoa__lista{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+    color: var(--texto-secundario)
+}
+
+.botao-conectar{
+    border: 1px solid var(--cor-branca);
+    border-radius: 16px;
+    text-align: center;
+    padding: 7px 16px;
+    width: 154px;
+    color: var(--cor-branca);
+    margin-top: 8px;
 }

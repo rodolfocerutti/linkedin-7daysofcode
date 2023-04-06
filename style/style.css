@@ -10,7 +10,8 @@
 @import url("../style/experiencias.css");
 @import url("../style/formacao.css");
 @import url("../style/idioma.css");
-
+@import url("../style/aside.css");
+    
 :root {
     --fundo-escuro: #000;
     --fundo-mais-claro:#2c3033;
