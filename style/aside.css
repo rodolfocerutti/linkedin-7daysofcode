@@ -48,3 +48,30 @@
     color: var(--cor-branca);
     margin-top: 8px;
 }
+
+.conexoes{
+    background-color: var(--fundo-card);
+    height: 570px;
+    width: auto;
+    border-radius: 16px;
+}
+
+.botao-conectar__pessoas{
+    border: 1px solid var(--cor-branca);
+    border-radius: 16px;
+    text-align: center;
+    padding: 7px 16px;
+    width: 99px;
+    color: var(--cor-branca);
+    margin-top: 8px;
+}
+
+@media screen and (max-width: 425px){
+    .pessoas{
+        display: none;
+    }
+
+    .conexoes{
+        display: none;
+    }
+}

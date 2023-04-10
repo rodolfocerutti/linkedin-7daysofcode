@@ -31,5 +31,5 @@ body{
     font-family: var(--font-primaria);
     font-weight: 400;
     display: block;
-    /*background-color: var(--fundo-mais-claro);*/
+    background-color: var(--fundo-mais-claro);
 }

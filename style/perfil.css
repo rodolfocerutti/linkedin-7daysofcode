@@ -101,3 +101,9 @@
     color: var(--primario);
     font-weight: 500;
 }
+
+@media screen and (max-width: 425px){
+    .principal{
+        align-self: center;
+    }
+}

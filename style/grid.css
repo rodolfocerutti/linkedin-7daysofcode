@@ -1,12 +1,12 @@
 body{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: auto auto 1fr;
     grid-gap: 1rem;
     grid-template-areas:
     "header header"
     "main aside"
-    "main aside";
+    "main conexoes";
 }
 
 .navbar{
@@ -22,3 +22,9 @@ body{
     grid-area: main;
     justify-self: right;
 }
+
+.conexoes{
+    grid-area: conexoes;
+    justify-self: left;
+}
+

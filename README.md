@@ -1,6 +1,6 @@
 <h1>Linkedin clone page</h1>
 
-> Status: Developing ⚠️
+> Status: Finalized ✔️
 
 ### As a study, I'm creating a clone of the LinkedIN page. Since I'm still a junior in development, I'm only using html and css. I also use it to develop css grid and flex box.
 
@@ -16,7 +16,7 @@
   
 </table>
 
-## Updates - 05/04/2023
+## Updates - 10/04/2023
 
 + Finished Highlight
 + Finished the Activity
@@ -25,7 +25,7 @@
 + Finished the Academic Education
 + Finished the Language
 + Finished the header
-+
++ Finished the aside
 
 ## Base Project
  
@@ -33,7 +33,7 @@
 
 ## Live programming
 
-- [Programming Studies 30](https://www.youtube.com/watch?v=0PBVjab7dew&ab_channel=RodolfoCerutti-Designer)</br>
+- [Programming Studies 31](https://www.youtube.com/watch?v=97ahh-ar9uo&ab_channel=RodolfoCerutti-Designer)</br>
 
 ## Contact
 
